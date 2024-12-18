@@ -16,12 +16,19 @@ git clone https://github.com/Kong-eats/final-course-project
 # 2 Step
 **Create and activate your virtual environment:**
 ```bash:
-python -m venv .venv
+python3 -m venv .venv
 ```
 
-Unix-systems:
 ```bash:
 source .venv/bin/activate
+```
+
+**Connect the frameworks:**
+```bash:
+pip install --upgrade pip
+```
+```bash:
+pip install aiogram sqlalchemy aiosqlite greenlet
 ```
 
 **Install packages**:
